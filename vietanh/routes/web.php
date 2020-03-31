@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/hello', function(){
+/*Route::get('/hello', function(){
     return view('hello', ['name' => 'Kmin']);
     });
     Route::group(['prefix'=>'/admin'],function(){
@@ -38,16 +38,8 @@ Route::get('/hello', function(){
         Route::post(‘/nhanvien/{id}’,nhanvienController@update)
         {
         });
-
-    trangchu.blade.php 
-    nhanvien.blade.php 
-    admin.blade.php 
     danhsachnhanvien.blade.php 
-    phongban.blade.php 
-    bangcap.blade.php 
-    chucvu.blade.php 
-    danhsachnghiviec.blade.php 
-    ... 
+*/
 
 
 
